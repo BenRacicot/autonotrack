@@ -2,7 +2,7 @@
 
 	// Set the recipient email address.
     // FIXME: Update this to your desired email address.
-    $recipient = "eventhemes.contact@gmail.com";
+    $recipient = "";
 
 
     // Only process POST reqeusts.

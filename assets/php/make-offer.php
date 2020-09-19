@@ -2,7 +2,7 @@
 
 	// Set the recipient email address.
     // FIXME: Update this to your desired email address.
-    $recipient = "benjaminracicot@gmail.com";
+    $recipient = "";
 
     // FIXME: Update this to your desired email subject
     $subject = "Domain Bid";
