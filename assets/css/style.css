@@ -3938,7 +3938,6 @@ fieldset[disabled] .btn {
   position: relative;
   z-index: 1;
   color: #fff;
-  max-height: 50vh;
 }
 .hero-area-light {
   color: #444;
@@ -3946,7 +3945,7 @@ fieldset[disabled] .btn {
 
 @media screen and (min-width: 992px) {
   .hero-area .h-full {
-
+    max-height: 50vh;
   }
 }
 @media screen and (max-width: 991px) {
