@@ -6,6 +6,7 @@
 * ------------------------------------------------------------------------ */
 
 .top-ad{
+    display:none;
     width:100%;
     height:auto;
 }
@@ -18,9 +19,24 @@ h1 .domain-name{
     width:100%;
 }
 
-
-
-
+.description{
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.description h2{
+    color: black;
+    margin: 10px 0;
+}
+.description p{
+    color: black;
+}
+.iframe-widget_3{
+    display:block;
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 
 
@@ -3922,6 +3938,7 @@ fieldset[disabled] .btn {
   position: relative;
   z-index: 1;
   color: #fff;
+  max-height: 50vh;
 }
 .hero-area-light {
   color: #444;
@@ -3929,9 +3946,7 @@ fieldset[disabled] .btn {
 
 @media screen and (min-width: 992px) {
   .hero-area .h-full {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+
   }
 }
 @media screen and (max-width: 991px) {
